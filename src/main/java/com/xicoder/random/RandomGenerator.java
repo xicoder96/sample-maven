@@ -1,11 +1,11 @@
-package com.random;
+package com.xicoder.random;
 
 public class RandomGenerator {
+
     static String getRandomStringGenerated(int n) {
         // chose a Character random from this String
         String AlphaNumericString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
                 + "0123456789"
-                + "!@#$%^&*(){}"
                 + "abcdefghijklmnopqrstuvxyz";
 
         // create StringBuffer size of AlphaNumericString
@@ -25,5 +25,9 @@ public class RandomGenerator {
         }
 
         return sb.toString();
+    }
+
+    private RandomGenerator(){
+
     }
 }
