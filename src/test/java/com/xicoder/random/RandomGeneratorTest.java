@@ -21,7 +21,7 @@ public class RandomGeneratorTest {
     public void alphaNumericTest() {
         String randomString = RandomGenerator.getRandomStringGenerated(12);
         // Regex to check string is alphanumeric or not.
-        String regex = "^(?=.*[a-zA-Z])(?=.*[0-9])[A-Za-z0-9]+$";
+        String regex = "^[a-zA-Z0-9]+$";
         // Compile the ReGex
         Pattern p = Pattern.compile(regex);
         // Pattern class contains matcher() method
