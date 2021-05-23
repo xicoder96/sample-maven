@@ -1,6 +1,7 @@
 target/
 mvn-repo/
 pom.xml.tag
+.idea
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
