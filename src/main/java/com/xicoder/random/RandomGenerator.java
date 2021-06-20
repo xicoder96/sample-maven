@@ -2,6 +2,11 @@ package com.xicoder.random;
 
 public class RandomGenerator {
 
+    /**
+     * Get Random String Generated
+     * @param n String length
+     * @return
+     */
     static String getRandomStringGenerated(int n) {
         // chose a Character random from this String
         String AlphaNumericString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
